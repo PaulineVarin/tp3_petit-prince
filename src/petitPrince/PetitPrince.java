@@ -4,14 +4,14 @@ import asteroide.Sujet;
 import asteroide.console.*;
 import petitPrince.jeu.Joueur;
 
-public class PetitPrince0 implements Sujet, Joueur{
+public class PetitPrince implements Sujet, Joueur{
 	private String nom ;  
 	private int argent ; 
 	private ConsoleJavaBoy console ; 
 	private int cpt ; 
 	
-	public PetitPrince0() {
-		this.nom = "Petit prince non joueur" ;
+	public PetitPrince(String nom) {
+		this.nom = nom ;
 		this.argent = 100 ; 
 		this.cpt = 0 ; 
 		this.console = new ConsoleJavaBoy(this) ;
