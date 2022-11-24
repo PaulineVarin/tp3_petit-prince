@@ -1,7 +1,6 @@
-package jeu;
+package petitPrince.jeu;
 
 import java.util.Random;
-import java.util.random.*;
 
 public class JeuDe extends JeuSimple {
 	

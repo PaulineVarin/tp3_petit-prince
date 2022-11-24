@@ -2,6 +2,7 @@ package petitPrince;
 
 import asteroide.Sujet;
 import asteroide.console.*;
+import petitPrince.jeu.Joueur;
 
 public class PetitPrince0 implements Sujet, Joueur{
 	private String nom ;  

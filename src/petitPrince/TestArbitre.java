@@ -1,6 +1,7 @@
 package petitPrince;
-import jeu.JeuDe;
-import jeu.JeuSimple;
+import petitPrince.jeu.JeuDe;
+import petitPrince.jeu.JeuSimple;
+import petitPrince.jeu.Joueur;
 
 public class TestArbitre{
 	
@@ -27,13 +28,13 @@ public class TestArbitre{
 		}
 	}
 	
-	/*public static void main(String[] args) {
+	public static void main(String[] args) {
 		System.out.println("Jouons au jeu de dés");
 		JeuSimple jeu = new JeuDe() ; 
 		TestArbitre arbitre = new TestArbitre() ; 
 		arbitre.arbitrer(null, null, jeu);
 		
 		
-	} */
+	}
 	
 }
