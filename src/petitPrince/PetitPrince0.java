@@ -3,7 +3,7 @@ package petitPrince;
 import asteroide.Sujet;
 import asteroide.console.*;
 
-public class PetitPrince0 implements Sujet{
+public class PetitPrince0 implements Sujet, Joueur{
 	private String nom ;  
 	private int argent ; 
 	private ConsoleJavaBoy console ; 
@@ -29,6 +29,18 @@ public class PetitPrince0 implements Sujet{
 		this.cpt++ ; 
 		this.console.parler("[tour"+cpt+"] "+ " Dessine moi un mouton");
 		this.console.seDirigerVers(0);
+	}
+
+	@Override
+	public void gagner(int argent) {
+		this.argent = getArgent() + argent ; 
+		
+	}
+
+	@Override
+	public void perdre(int argent) {
+		this.argent = getArgent() - argent ; 
+		
 	}
 	
 	
